@@ -1,0 +1,11 @@
+$navbar-border-radius: 0;
+$navbar-default-brand-color: #ffffff;
+$navbar-default-link-color: #66B1E7;
+$navbar-default-link-hover-color: #ffffff;
+$navbar-default-bg: #0074D4;
+
+@import "ember-bootstrap/bootstrap";
+
+// .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+//   color: green;
+// }

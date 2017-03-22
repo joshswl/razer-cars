@@ -4,8 +4,27 @@ $navbar-default-link-color: #66B1E7;
 $navbar-default-link-hover-color: #ffffff;
 $navbar-default-bg: #0074D4;
 
+$btn-default-color: #ffffff;
+$btn-default-bg: #F4AC56;
+$btn-border-radius-base: 0;
+
 @import "ember-bootstrap/bootstrap";
 
 // .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 //   color: green;
 // }
+
+.container {
+  max-width: 100rem;
+
+  &__navbar {
+    max-width: 100rem;
+  }
+}
+
+.custom {
+
+  &__font-size {
+    font-size: 3rem;
+  }
+}
